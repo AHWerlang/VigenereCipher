@@ -51,7 +51,7 @@ text has been encrypted.
 -   [X] User can see the encrypted message displayed in the result field.
 -   [ ] User can see the 'Decrypt' button enabled after the encrypted message
 has been displayed.
--   [ ] User can click the 'Decrypt' button to decrypt the encrypted message
+-   [X] User can click the 'Decrypt' button to decrypt the encrypted message
 and to display its contents in the result field.
 
 ## Bonus features

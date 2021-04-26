@@ -1,11 +1,13 @@
 /** HEADER **/
 .navbar-title h1 {
 	text-align: center;
+  color: BlueViolet;
 }
 
 /** BODY **/
 body {
 	margin: 0;
+  background-color: #F0F8FF;
 }
 
 /* Simple Responsive Framework. */
@@ -14,6 +16,7 @@ body {
   text-align: center;
 }
 
+/* Boxes */
 #text-to-convert{
   resize: vertical;
   width: 90%;
@@ -31,12 +34,19 @@ body {
   text-transform: uppercase;
 }
 
+/* Buttons */
+
+input[type='button'] {
+  margin: 0 10px 0 10px;
+}
+
 /********** Large devices only **********/
 @media (min-width: 500px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     padding:10px 0 10px 0;
     border: 2px solid #A0A0A0;
+    background-color: White;
   }
 .col-lg-6 {
     width: 50%;
@@ -50,6 +60,7 @@ body {
     float: left;
     padding:10px 0 10px 0;
     border: 2px solid #A0A0A0;
+    background-color: White;
   }
   .col-sm-11 {
     width: 90%;
