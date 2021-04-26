@@ -1,7 +1,7 @@
 # Vigenere Cipher
 Idea from [here](https://github.com/florinpop17/app-ideas)
 
-Demo: [Vigenère Cipher](https://ahwerlang.github.io/VigenereCipher/index.html)
+Demo: [Vigenère Cipher](https://ahwerlang.github.io/VigenereCipher/)
 
 **Tier:** 1-Beginner
 
