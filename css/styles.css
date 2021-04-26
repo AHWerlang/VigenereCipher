@@ -1,0 +1,58 @@
+/** HEADER **/
+.navbar-title h1 {
+	text-align: center;
+}
+
+/** BODY **/
+body {
+	margin: 0;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+#text-to-convert{
+  resize: vertical;
+  width: 90%;
+  text-transform: uppercase;
+}
+
+#keyword{
+  width: 90%;
+  text-transform: uppercase;
+}
+
+#encrypt-message{
+  resize: vertical;
+  width: 90%;
+  text-transform: uppercase;
+}
+
+/********** Large devices only **********/
+@media (min-width: 500px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+    padding:10px 0 10px 0;
+    border: 2px solid #A0A0A0;
+  }
+.col-lg-6 {
+    width: 50%;
+    margin: 0 25% 0 25%;
+    }
+}
+
+/********** Small devices only **********/
+@media (max-width: 499px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+    padding:10px 0 10px 0;
+    border: 2px solid #A0A0A0;
+  }
+  .col-sm-11 {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+}

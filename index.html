@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Vigenere</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+<body>
+	<header>
+		<nav id=header-nav>
+			<div class="navbar-title">
+				<span><h1>VIGENÈRE CIPHER</h1></span>
+			</div>
+		</nav>
+	</header>
+
+	<div class="row">
+		<div class="col-lg-6 col-sm-11">
+				<label>Enter Text:</label><br>
+				<textarea rows="7" id="text-to-convert"></textarea><br><br>
+				<label>Keyword:</label><br>
+				<input type="text" id="keyword"><br><br>
+				<input type="button" value="Encrypt" onclick="encryptMessage()"><input type="button" value="Decode" onclick="decodeMessage()"><br><br>
+				<label>Encrypt Text:</label><br>
+				<textarea rows="7" id="encrypt-message"></textarea>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+</body>
